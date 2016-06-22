@@ -1,0 +1,5 @@
+C:\Users\xenxui\Desktop\workspace\SBingoII\app\build\intermediates\classes\debug
+C:\Users\xenxui\Desktop\workspace\SBingoII\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-098db51cfe31e88c90ec14c5b55cf4167fde562a.jar
+C:\Users\xenxui\Desktop\workspace\SBingoII\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-39a25a1b78798e859b10ce11508366ebca44a7ed.jar
+C:\Users\xenxui\Desktop\workspace\SBingoII\app\build\intermediates\pre-dexed\debug\classes-e97ad1d31156538da6cf2b45a49ae52ed23a2723.jar
+C:\Users\xenxui\Desktop\workspace\SBingoII\app\build\intermediates\pre-dexed\debug\classes-3f64deb56127d900071914183311e42159d186f3.jar

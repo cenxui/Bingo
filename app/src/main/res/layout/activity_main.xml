@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bingobackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sbingo.MainActivity" >
+
+    <TextView
+        android:id="@+id/textElement"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonMode"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textElement"
+        android:background="@drawable/bingo_button"
+        android:text="@string/game" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/buttonMode"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/buttonMode"
+        android:text="@string/inputmode"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonMode"
+        android:background="@drawable/bingo_button"
+        android:text="@string/random" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMode"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button3"
+        android:layout_toLeftOf="@+id/button3"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/buttonMode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/buttonMode"
+        android:layout_below="@id/buttonMode"
+        android:background="@drawable/bingo_button"
+        android:text="@string/enter" />
+
+    <TextView
+        android:id="@+id/textLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearlayout"
+        android:layout_below="@+id/buttonMode"
+        android:layout_toLeftOf="@+id/imageButtonNext"
+        android:layout_toRightOf="@+id/imageButtonPre"
+        android:lines="1"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPre"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/buttonMode"
+        android:background="@android:color/transparent"
+        android:src="@drawable/lui_1_arrow_pre" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/lui_1_arrow_next" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignRight="@+id/button1"
+        android:layout_toRightOf="@+id/imageButtonNext"
+        android:background="@drawable/bingo_button"
+        android:text="@string/clear" />
+
+    <TextView
+        android:id="@+id/textExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonMode"
+        android:layout_alignRight="@+id/textLine"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/imageButtonPre"
+        android:lines="1"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+</RelativeLayout>

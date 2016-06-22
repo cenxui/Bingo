@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="#00ff00"></solid>
+    <corners android:radius="3dp"></corners>
+
+</shape>
+<!-- From: file:/C:/Users/xenxui/Desktop/testbag/workspace/SBingoII/app/src/main/res/drawable-hdpi/box_red.xml -->
